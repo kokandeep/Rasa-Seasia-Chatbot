@@ -1,0 +1,328 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Tell about Random forest
+  steps:
+  - intent: random_forest
+  - action: utter_random_forest
+
+- rule: Tell about Decision tree
+  steps:
+  - intent: decision_tree
+  - action: utter_decision_tree
+
+- rule: Tell about Linear regression
+  steps:
+  - intent: linear_regression
+  - action: utter_linear_regression
+
+- rule: Tell about Logistic regression
+  steps:
+  - intent: logistic_regression
+  - action: utter_logistic_regression
+
+- rule: Tell about SVM
+  steps:
+  - intent: support_vector_machine
+  - action: utter_support_vector_machine
+
+- rule: Tell about Neural networks
+  steps:
+  - intent: neural_network
+  - action: utter_neural_network
+
+- rule: Tell about Time series
+  steps:
+  - intent: time_series
+  - action: utter_time_series
+
+- rule: Tell about Econometric model
+  steps:
+  - intent: econometric_model
+  - action: utter_econometric_model
+
+- rule: Tell about Delphi model
+  steps:
+  - intent: delphi_method
+  - action: utter_delphi_method
+
+- rule: Tell about Judgemental forecasting
+  steps:
+  - intent: judgmental_forecasting
+  - action: utter_judgmental_forecasting
+
+- rule: Tell about Image Segmentation
+  steps:
+  - intent: image_segmentation
+  - action: utter_image_segmentation
+
+- rule: Tell about Fraud Detection
+  steps:
+  - intent: fraud_detection
+  - action: utter_fraud_detection
+
+- rule: Tell about Spam detection
+  steps:
+  - intent: spam_detection
+  - action: utter_spam_detection
+
+- rule: Tell about Speech recognition
+  steps:
+  - intent: speech_recognition
+  - action: utter_speech_recognition
+
+- rule: Tell about Stock price
+  steps:
+  - intent: stock_price_prediction
+  - action: utter_stock_price_prediction
+
+- rule: Tell about K-Means Clustering
+  steps:
+  - intent: k_means_clustering
+  - action: utter_k_means_clustering
+
+- rule: Tell about Mean Shift algorithm
+  steps:
+  - intent: mean_shift
+  - action: utter_mean_shift
+
+- rule: Tell about DB Scan algorithm
+  steps:
+  - intent: DBSCAN_algorithm
+  - action: utter_DBSCAN_algorithm
+
+- rule: Tell about PCA
+  steps:
+  - intent: principal_component_analysis
+  - action: utter_principal_component_analysis
+
+- rule: Tell about ICA
+  steps:
+  - intent: independent_component_analysis
+  - action: utter_independent_component_analysis
+
+- rule: Tell about Apriori Algorithm
+  steps:
+  - intent: apriori_algorithmn
+  - action: utter_apriori_algorithmn
+
+- rule: Tell about Eclat
+  steps:
+  - intent: eclat
+  - action: utter_eclat
+
+- rule: Tell about Fp growth algorithm
+  steps:
+  - intent: fp_growth_algorithm
+  - action: utter_fp_growth_algorithm
+
+- rule: Tell about CNN
+  steps:
+  - intent: convolution_neural_network
+  - action: utter_convolution_neural_network
+
+- rule: Tell about RNN
+  steps:
+  - intent: recurrent_neural_network
+  - action: utter_recurrent_neural_network
+
+- rule: Tell about MNN
+  steps:
+  - intent: modular_neural_network
+  - action: utter_modular_neural_network
+
+- rule: Tell about GANs
+  steps:
+  - intent: generative_adversarial_network
+  - action: utter_generative_adversarial_network
+
+- rule: Tell about Reinforcement learning
+  steps:
+  - intent: reinforcement_learning
+  - action: utter_reinforcement_learning
+
+- rule: Tell about Tableau
+  steps:
+  - intent: tableau
+  - action: utter_tableau
+
+- rule: Tell about Power BI
+  steps:
+  - intent: power_bi
+  - action: utter_power_bi
+
+- rule: Tell about SAS
+  steps:
+  - intent: sas
+  - action: utter_sas
+
+- rule: Tell about Snowflake
+  steps:
+  - intent: snowflake
+  - action: utter_snowflake
+
+- rule: Tell about IBM congos
+  steps:
+  - intent: ibm_cognos
+  - action: utter_ibm_cognos
+
+- rule: Tell about Matlab
+  steps:
+  - intent: matlab
+  - action: utter_matlab
+
+- rule: Tell about SAS Business Intelligence
+  steps:
+  - intent: sas_business_intelligence
+  - action: utter_sas_business_intelligence
+
+- rule: Tell about ETL
+  steps:
+  - intent: etl
+  - action: utter_etl
+
+- rule: Tell about PySpark
+  steps:
+  - intent: pyspark
+  - action: utter_pyspark
+
+- rule: Tell about Tensorflow
+  steps:
+  - intent: tensorflow
+  - action: utter_tensorflow
+
+- rule: Tell about YOLO
+  steps:
+  - intent: yolo
+  - action: utter_yolo
+
+- rule: Tell about ML Flow
+  steps:
+  - intent: mlflow
+  - action: utter_mlflow
+
+- rule: Tell about Microsoft Cognitive Services
+  steps:
+  - intent: microsoft_congnitive_services
+  - action: utter_microsoft_congnitive_services
+
+- rule: Tell about GPT
+  steps:
+  - intent: gpt
+  - action: utter_gpt
+
+- rule: Tell about Sagemaker
+  steps:
+  - intent: aws_sagemaker
+  - action: utter_aws_sagemaker
+
+- rule: Tell about Azure
+  steps:
+  - intent: azure
+  - action: utter_azure
+
+- rule: Tell about AWS cloud
+  steps:
+  - intent: aws_cloud
+  - action: utter_aws_cloud
+
+- rule: Tell about Lasso regression
+  steps:
+  - intent: lasso_regression
+  - action: utter_lasso_regression
+
+- rule: Tell about Predictive modelling
+  steps:
+  - intent: predictive_model
+  - action: utter_predictive_model
+
+- rule: Tell about Face recognition
+  steps:
+  - intent: face_recognition
+  - action: utter_face_recognition
+
+- rule: Tell about What we have worked on
+  steps:
+  - intent: worked_on
+  - action: utter_worked_on
+
+- rule: Which models are we familiar with
+  steps:
+  - intent: familiar_models
+  - action: utter_familiar_models
+
+- rule: which frameworks we are familiar with
+  steps:
+  - intent: familiar_framework
+  - action: utter_familiar_framework
+
+- rule: Tell about Data Augmentation
+  steps:
+  - intent: data_augmentation
+  - action: utter_data_augmentation
+
+- rule: Tell about Spark jobs
+  steps:
+  - intent: spark_jobs
+  - action: utter_spark_jobs
+
+- rule: Tell about Blockchain
+  steps:
+  - intent: blockchain
+  - action: utter_blockchain
+
+- rule: Tell about Type DB
+  steps:
+  - intent: type_db
+  - action: utter_type_db
+
+- rule: Can we build datasets
+  steps:
+  - intent: build_dataset
+  - action: utter_build_dataset
+
+- rule: Contact someone to talk to BD team
+  steps:
+  - intent: contact_someone
+  - action: utter_contact_someone
+
+- rule: Worked on computer vision
+  steps:
+  - intent: computer_vision
+  - action: utter_computer_vision
+
+- rule: Worked on Open CV
+  steps:
+  - intent: open_cv
+  - action: utter_open_cv
+
+- rule: Worked on recommender system
+  steps:
+  - intent: recommender_system
+  - action: utter_recommender_system
+
+- rule: Worked on chatbot
+  steps:
+  - intent: chatbot
+  - action: utter_chatbot
+
+- rule: worked on audio and video
+  steps:
+  - intent: audio_video
+  - action: utter_audio_video
+
+- rule: worked on trading bot
+  steps:
+  - intent: trading_bot
+  - action: utter_trading_bot

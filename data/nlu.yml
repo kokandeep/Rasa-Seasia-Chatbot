@@ -1,0 +1,582 @@
+version: "3.1"
+
+nlu:
+- intent: random_forest
+  examples: |
+    - What have you worked in random forest
+    - Do you have experience in Random forest
+    - Random forest
+    - I would like someone to build an AI system using Random forest
+    - Do you work on Random forest
+
+- intent: supervised_learning
+  examples: |
+    - Have you worked on Supevised Learning.
+    - What have you worked in supervised learning
+    - Supervised learning
+    - I would like someone to build an AI system using Supervised learning
+    - Do you work on Supervised learning
+
+- intent: decision_tree
+  examples: |
+    - Have you worked on Decision tree.
+    - What have you worked in Decision tree
+    - Decision tree
+    - I would like someone to build an AI system using Decision tree
+    - Do you work on Decision tree
+
+- intent: linear_regression
+  examples: |
+    - Have you worked on Linear regression.
+    - What have you worked in Linear regression
+    - Linear regression
+    - I would like someone to build an AI system using Linear regression
+    - Do you work on Linear regression
+
+- intent: logistic_regression
+  examples: |
+    - Have you worked on Logistic regression.
+    - What have you worked in Logistic regression
+    - Logistic regression
+    - Logistic regression
+    - Do you work on Logistic regression
+
+- intent: support_vector_machine
+  examples: |
+    - Have you worked on Support Vector Machine(SVM).
+    - What have you worked in Support Vector Machine(SVM)
+    - Support Vector Machine(SVM)
+    - SVM
+    - I would like someone to build an AI system using SVM
+    - Do you work on Support Vector Machine(SVM)
+
+- intent: neural_network
+  examples: |
+    - Have you worked on Neural Networks.
+    - What have you worked in Neural Networks
+    - Neural Networks
+    - I would like someone to build an AI system using Neural network
+    - Do you work on Neural Networks
+
+- intent: time_series
+  examples: |
+    - Have you worked on Time Series.
+    - What have you worked in Time Series
+    - Time Series
+    - I would like someone to build an AI system using time series
+    - Do you work on Time Series
+
+- intent: econometric_model
+  examples: |
+    - Have you worked on Econometric Model.
+    - What have you worked in Econometric Model
+    - Econometric Model
+    - I would like someone to build an AI system using Econometric model
+    - Do you work on Econometric Model
+
+- intent: delphi_method
+  examples: |
+    - Have you worked on Delphi Method.
+    - What have you worked in Delphi Method
+    - Delphi Method
+    - I would like someone to build an AI system using Delphi method
+    - Do you work on Delphi Method
+
+- intent: judgmental_forecasting
+  examples: |
+    - Have you worked on Judgmental Forecasting.
+    - What have you worked in Judgmental Forecasting
+    - Judgmental Forecasting
+    - I would like someone to build an AI system using Judgemental forecasting
+    - Do you work on Judgmental Forecasting
+
+- intent: image_segmentation
+  examples: |
+    - Have you worked on Image Segmentation.
+    - What have you worked in Image Segmentation
+    - Image Segmentation
+    - I would like someone to build an AI system using Image segmentation
+    - Do you work on Image Segmentation
+
+- intent: fraud_detection
+  examples: |
+    - Have you worked on Fraud Detection.
+    - What have you worked in Fraud Detection
+    - Fraud Detection
+    - I would like someone to build an AI system using Fraud Detection
+    - Do you work on Fraud Detection
+
+- intent: spam_detection
+  examples: |
+    - Have you worked on Spam Detection
+    - What have you worked in Spam Detection
+    - Spam Detection
+    - I would like someone to build an AI system using Spam detection
+    - Do you work on Spam Detection
+
+- intent: speech_recognition
+  examples: |
+    - Have you worked on Speech Recognition.
+    - What have you worked in Speech Recognition
+    - Speech Recognition
+    - I would like someone to build an AI system using Speech recognition
+    - Do you work on Speech Recognition
+
+- intent: stock_price_prediction
+  examples: |
+    - Have you worked on Stock Price Prediction
+    - What have you worked in Stock Price Prediction
+    - Stock Price Prediction
+    - Do you work on Stock Price Prediction
+    - I am looking for someone to create a stock market prediction bot.
+
+- intent: trading_bot
+  examples: |
+    - Have you worked on trading
+    - What have you worked in trading
+    - trading bot
+    - Do you work on trading bot
+    - I would like someone to build an AI system using trading bot
+    - I am looking for someone to create a trading bot.
+
+- intent: k_means_clustering
+  examples: |
+    - Have you worked on K means Clustering.
+    - What have you worked in K means Clustering
+    - K means Clustering
+    - Do you work on K means Clustering
+
+- intent: mean_shift
+  examples: |
+    - Have you worked on Mean Shift.
+    - What have you worked in Mean-Shift
+    - Mean Shift
+    - Do you work on Mean-Shift
+
+- intent: DBSCAN_algorithm
+  examples: |
+    - Have you worked on DBSCAN Algorithm.
+    - What have you worked in DBSCAN Algorithm
+    - DBSCAN Algorithm
+    - Do you work on DBSCAN Algorithm
+
+- intent: principal_component_analysis
+  examples: |
+    - Have you worked on Principal Component Analysis
+    - What have you worked in Principal Component Analysis
+    - Principal Component Analysis
+    - PCM
+    - Do you work on Principal Component Analysis
+
+- intent: independent_component_analysis
+  examples: |
+    - Have you worked on Independent Component Analysis.
+    - What have you worked in Independent Component Analysis
+    - Independent Component Analysis
+    - ICA
+    - Do you work on Independent Component Analysis
+
+- intent: apriori_algorithmn
+  examples: |
+    - Have you worked on Apriori Algorithmn
+    - What have you worked in Apriori Algorithmn
+    - Apriori Algorithmn
+    - Do you work on Apriori Algorithmn
+
+- intent: eclat
+  examples: |
+    - Have you worked on Eclat.
+    - What have you worked in Eclat
+    - Eclat
+    - Do you work on Eclat
+
+- intent: fp_growth_algorithm
+  examples: |
+    - Have you worked on FP growth Algorithm.
+    - What have you worked in FP growth Algorithm
+    - FP growth Algorithm
+    - Do you work on FP growth Algorithm
+
+- intent: convolution_neural_network
+  examples: |
+    - Have you worked on Convolution Neural Network
+    - CNN
+    - What have you worked in Convolution Neural Network
+    - Convolution Neural Network
+    - I would like someone to build an AI system using Convolutional neural network
+    - Do you work on Convolution Neural Network
+
+- intent: recurrent_neural_network
+  examples: |
+    - Have you worked on Recurrent Neural Network
+    - What have you worked in Recurrent Neural Network
+    - Recurrent Neural Network
+    - RNN
+    - I would like someone to build an AI system using Recurrent Neural network.
+    - Do you work on Recurrent Neural Network
+
+- intent: modular_neural_network
+  examples: |
+    - Have you worked on Modular Neural Network
+    - What have you worked in Modular Neural Network
+    - Modular Neural Network
+    - Do you work on Modular Neural Network
+    - MNN
+
+- intent: generative_adversarial_network
+  examples: |
+    - Have you worked on Generative Adversarial Networks
+    - What have you worked in Generative Adversarial Networks
+    - Generative Adversarial Networks
+    - Do you work on Generative Adversarial Networks
+    - GANs
+    - I would like someone to build an AI system using Gans
+
+- intent: reinforcement_learning
+  examples: |
+    - Have you worked on Reinforcement Learning
+    - What have you worked in Reinforcement Learning
+    - Reinforcement Learning
+    - Rl
+    - I would like someone to build an AI system using Reinforcement learning.
+    - Do you work on Reinforcement Learning
+
+- intent: tableau
+  examples: |
+    - Have you worked on Tableau
+    - What have you worked in Tableau
+    - Tableau
+    - Do you work on Tableau
+
+- intent: power_bi
+  examples: |
+    - Have you worked on Power BI
+    - What have you worked in Power BI
+    - Power BI
+    - Do you work on Power BI
+
+- intent: sas
+  examples: |
+    - Have you worked on SAS
+    - What have you worked in SAS
+    - SAS
+    - Do you work on SAS
+
+- intent: snowflake
+  examples: |
+    - Have you worked on Snowflake
+    - What have you worked in Snowflake
+    - Snowflake
+    - Do you work on Snowflake
+
+- intent: ibm_cognos
+  examples: |
+    - Have you worked on IBM Cognos
+    - What have you worked in IBM Cognos
+    - IBM Cognos
+    - Do you work on IBM Cognos
+
+- intent: matlab
+  examples: |
+    - Have you worked on Matlab
+    - What have you worked in Matlab
+    - Matlab
+    - Do you work on Matlab
+
+- intent: sas_business_intelligence
+  examples: |
+    - Have you worked on SAS Business Intelligence
+    - What have you worked in SAS Business Intelligence
+    - SAS Business Intelligence
+    - Do you work on SAS Business Intelligence
+
+- intent: etl
+  examples: |
+    - Have you worked on ETL
+    - What have you worked in ETL
+    - ETL
+    - Do you work on ETL
+
+- intent: pyspark
+  examples: |
+    - Have you worked on PySpark
+    - What have you worked in PySpark
+    - PySpark
+    - Do you work on PySpark
+
+- intent: tensorflow
+  examples: |
+    - Have you worked on TensorFlow
+    - What have you worked in TensorFlow
+    - TensorFlow
+    - Do you work on TensorFlow
+
+- intent: yolo
+  examples: |
+    - Have you worked on YOLO
+    - What have you worked in YOLO
+    - YOLO
+    - I would like someone to build an AI system using YOLO
+    - Do you work on YOLO
+
+- intent: mlflow
+  examples: |
+    - Have you worked on MLflow
+    - What have you worked in MLflow
+    - MLflow
+    - Do you work on MLflow
+
+- intent: microsoft_congnitive_services
+  examples: |
+    - Have you worked on Microsoft Congnitive Services
+    - What have you worked in Microsoft Congnitive Services
+    - Microsoft Congnitive Services
+    - Do you work on Microsoft Congnitive Services
+
+- intent: gpt
+  examples: |
+    - Have you worked on GPT
+    - What have you worked in GPT
+    - GPT
+    - I would like someone to build an AI system using GPT-3
+    - Do you work on GPT
+
+- intent: aws_sagemaker
+  examples: |
+    - Have you worked on AWS SageMaker
+    - What have you worked in AWS SageMaker
+    - AWS SageMaker
+    - Do you work on AWS SageMaker
+
+- intent: azure
+  examples: |
+    - Have you worked on Azure
+    - What have you worked in Azure
+    - Azure
+    - Do you work on Azure
+
+- intent: aws_cloud
+  examples: |
+    - Have you worked on AWS Cloud
+    - What have you worked in AWS Cloud
+    - AWS Cloud
+    - Do you work on AWS Cloud
+
+- intent: lasso_regression
+  examples: |
+    - Have you worked on Lasso Regression
+    - What have you worked in Lasso Regression
+    - Lasso Regression
+    - Do you work on Lasso Regression
+
+- intent: predictive_model
+  examples: |
+    - Have you worked on Predictive Model
+    - What have you worked in Predictive Model
+    - Predictive Model
+    - Do you work on Predictive Model
+
+- intent: face_recognition
+  examples: |
+    - Have you worked on Face recognition
+    - What have you worked in Face recognition
+    - Face recognition
+    - Do you work on Face recognition
+
+- intent: worked_on
+  examples: |
+    - How many AI models or projects or products have you created or worked on?
+    - What AI models or projects have you worked on.
+
+- intent: familiar_models
+  examples: |
+    - What AI model types / networks, are you very familiar or worked with?
+    - What different types of AI models are you familiar with.
+
+- intent: familiar_framework
+  examples: |
+    - What AI Framework are you most familiar with?
+    - What different frameworks are you familiar with
+    - How many frameworks are you familiar with.
+
+- intent: data_augmentation
+  examples: |
+    - Do you do data augmentation?
+    - Have you worked on data augmentation
+    - have you ever worked on data augmentation
+    - We are looking for someone who is proficient in data augmentation.
+
+- intent: spark_jobs
+  examples: |
+    - Do you have experience Optimizing spark jobs for images?
+    - Have you experience in Optimizing spark jobs for images?
+
+- intent: blockchain
+  examples: |
+    - Do you have any experience or knowledge of blockchain
+    - Do you work in Blockchain.
+    - Blockchain
+    - Have you worked in Blockchain.
+
+- intent: type_db
+  examples: |
+    - Have you used TypeDB in projects previously
+    - What have you worked in TypeDB
+    - TyoeDB
+    - Do you work on TypeDB
+
+- intent: build_dataset
+  examples: |
+    - How would you build a dataset for a language that you are not familiar with?
+
+- intent: contact_someone
+  examples: |
+    - I need to contact someone
+    - Can you give me the contact information from your bussiness team
+    - Bussiness team
+
+- intent: computer_vision
+  examples: |
+    - Have you worked on Computer Vision
+    - What have you worked in Computer Vision
+    - Computer Vision
+    - Do you work on Computer Vision
+
+- intent: open_cv
+  examples: |
+    - Have you worked on OpenCV
+    - What have you worked in OpenCV
+    - OpenCV
+    - Do you work on OpenCV
+
+- intent: recommender_system
+  examples: |
+    - Have you worked on recommender system
+    - What have you worked in recommender system
+    - We are looking for someone to create recommender system.
+    - recommendation engine
+    - recommender system
+    - Do you work on recommender system
+    - I am looking for someone to create a recommender system.
+
+- intent: chatbot
+  examples: |
+    - Have you worked on Chatbot
+    - What have you worked in Chatbot
+    - chatbot
+    - Do you work on chatbot
+    - I am looking for someone to create a chatbot
+
+- intent: audio_video
+  examples: |
+    - Have you worked on Audio or Video
+    - What have you worked in Audio or video
+    - Audio
+    - Video
+    - Seeking AI audio/video expert
+    - Do you work on Audio or video
+
+- intent: human_expert
+  examples: |
+    - I need to talk with anyone from your team.
+    - Connect me with someone.
+    - Can any human talk to me
+    - I need to talk to your sales team.
+    - sales
+    - Bussines development
+
+- intent: what_is_your_name
+  examples: |
+    - what is your name.
+    - What should i call you.
+    - name
+    - Tell me your name.
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

@@ -1,0 +1,18 @@
+version: "3.1"
+
+stories:
+
+- story: talking to human expert
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_is_your_name
+  - action: utter_what_is_your_name
+  - intent: trading_bot
+  - action: utter_trading_bot
+  - action: utter_human_expert
+
+# - story: button path
+#   steps:
+#   - intent: greet
+

@@ -1,0 +1,301 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - random_forest
+  - supervised_learning
+  - decision_tree
+  - linear_regression
+  - logistic_regression
+  - support_vector_machine
+  - neural_network
+  - time_series
+  - econometric_model
+  - delphi_method
+  - judgmental_forecasting
+  - image_segmentation
+  - fraud_detection
+  - spam_detection
+  - speech_recognition
+  - stock_price_prediction
+  - k_means_clustering
+  - mean_shift
+  - DBSCAN_algorithm
+  - principal_component_analysis
+  - independent_component_analysis
+  - apriori_algorithmn
+  - eclat
+  - fp_growth_algorithm
+  - convolution_neural_network
+  - recurrent_neural_network
+  - modular_neural_network
+  - generative_adversarial_network
+  - reinforcement_learning
+  - tableau
+  - power_bi
+  - sas
+  - snowflake
+  - ibm_cognos
+  - matlab
+  - sas_business_intelligence
+  - etl
+  - pyspark
+  - tensorflow
+  - yolo
+  - mlflow
+  - microsoft_congnitive_services
+  - gpt
+  - aws_sagemaker
+  - azure
+  - aws_cloud
+  - lasso_regression
+  - predictive_model
+  - face_recognition
+  - worked_on
+  - familiar_models
+  - familiar_framework
+  - data_augmentation
+  - spark_jobs
+  - blockchain
+  - type_db
+  - build_dataset
+  - contact_someone
+  - computer_vision
+  - open_cv
+  - recommender_system
+  - chatbot
+  - audio_video
+  - trading_bot
+  - what_is_your_name
+  - human_expert
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you, How can i help?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_random_forest:
+  - text: "Yes, we have worked with Random forest algorithm. And this is the project we have already worked on Random forest, Employee attrition prediction - Predicting that employee will leave the current company or not."
+
+  utter_supervised_learning:
+  - text: "Yes we have worked with supervised learning and the project based on supevised learning algorithms are Linear regression, Logistic regression, Decision trees, Random forest, etc"
+
+  utter_decision_tree:
+  - text: "Yes, we have worked with Decision tree algorithm. And this is the project we have already worked on Decision tree -> Loan Status prediction - The main objective of this project is to predict whether assigning the loan to particular person will be safe or not."
+
+  utter_linear_regression:
+  - text: "Yes, we have worked with Linear regression algorithm. And this is the project we have already worked on with Linear Regression -> Measure the effect of fertilizer and water on crop yields. Understanding relationship between drug dosage and BP of patients."
+
+  utter_logistic_regression:
+  - text: "Yes, we have worked with Logistic regression algorithm. And this is the project we have already worked on Logistic regression -> Winning and losing of a political candidate - Advanced form of Logistic Regression may include Decision Trees (Logistic Regression Trees) that can be useful for target specific political campaigning."
+
+  utter_support_vector_machine:
+  - text: "Yes, we have worked with Support Vector Machine(SVM) algorithm. And this is possible with SVM, Nuclear Power Plant fault diagnosis- A multiclass SVM module to monitor the RCS (Reactor Coolant System) for failure classification majorly into= Catastrophic, Critical, Marginal, Minor"
+  
+  utter_neural_network:
+  - text: "Yes, we have worked with Neural Networks. And this is possible with Neural Networks -> Earth's vegetation cover degradation- Identification of vegetation cover using satellite images/ google maps data using historical data."
+
+  utter_time_series:
+  - text: "Yes, we have worked with Time Series. And this is possible with Time Series, Beam time loss prevention in High Energy Accelerator Complex using time series data with image classification techniques in Nuclear Physics. This shall prevent substantial loss of beam time and furthermore reduce damages."
+
+  utter_econometric_model:
+  - text: "Yes, we have worked with Econometric Model. And this is possible with Econometric Model, It can be used to find what yields this year or next year."
+
+  utter_delphi_method:
+  - text: "Yes, we have worked with The Delphi Method. And this is possible with The Delphi Method, It can be used to find what bank can provide better loans this year."
+
+  utter_judgmental_forecasting:
+  - text: "Yes, we have worked with Judgmental Forecasting Model. And this is possible with The Judgmental Forecasting Model, Can be used where there is lack of historical data"
+
+  utter_image_segmentation:
+  - text: "Yes, we have worked with Image Segmentation. And this is possible with Image Segmentation, Flood Forecasting -To check whether the flood will appear or not."
+
+  utter_fraud_detection:
+  - text: "Yes, we have worked with Fraud Detection. And this is the project we have already worked on Fraud Detection, Credit card fraud check - Checking if the transaction is fraud or not."
+
+  utter_spam_detection:
+  - text: "Yes, we have worked with Spam Detection. And this is the project we have already worked on Spam Detection, Whether the mail is a spam or not."
+
+  utter_speech_recognition:
+  - text: "Yes, we have worked with Speech Recognition. And this is possible with Speech Recognition, Used in Alexa, Google Assistant to recognise the person's voice"
+
+  utter_stock_price_prediction:
+  - text: "Yes, we have worked with Stocks Prediction. And this is the project we have already worked on Stocks Prediction, To predict next days stock."
+
+  utter_k_means_clustering:
+  - text: "Yes, we have worked with K means Clustering Algorithm. And this is the project we have already worked on K Means Clustering Algorithm, Crime identification and mitigation - The idea is to identify crime localities and identify peak time of possibility of crime in a specific city and devise a counter measure on the same."
+
+  utter_mean_shift:
+  - text: "Yes, we have worked with Mean-Shift Algorithm."
+
+  utter_DBSCAN_algorithm:
+  - text: "Yes, we have worked with DBSCAN Algorithm."
+
+  utter_principal_component_analysis:
+  - text: "Yes, we have worked with Principal Component Analysis. And this is the project we have already worked on Principal Component Analysis(PCA), Credit card data is sometimes too much to show, so PCA is used to display important data."
+
+  utter_independent_component_analysis:
+  - text: "Yes, we have worked with Independent Component Analysis. And this is the project we have already worked on Independent Component Analysis, Credit card data is sometimes too much to show, so ICA is used to display important data."
+
+  utter_apriori_algorithmn:
+  - text: "Yes, we have worked with Apriori Algorithm. And this is possible with Apriori Algorithm, It is a algorithm mainly used in Groceries stores to predict that if aperson buys this thing then they should also  buy this thing too."
+
+  utter_eclat:
+  - text: "Yes, we have worked with Eclat. And this is possible with Eclat, This algorithm can be used for recommender engines (in case of online shopping) or for store improvement for offline shopping."
+
+  utter_fp_growth_algorithm:
+  - text: "Yes, we have worked with fp growth Algorithm. And this is possible with FP-Growth Algorithm, This algorithm can be used for recommender engines (in case of online shopping) or for store improvement for offline shopping."
+
+  utter_convolution_neural_network:
+  - text: "Yes, we have worked with Convolution Neural Network (CNN). And this is possible with Convolution Neural Network (CNN), Dog's breed Identification, Traffic Sign detection"
+
+  utter_recurrent_neural_network:
+  - text: "Yes, we have worked with Recurrent Neural Network (RNN). RNN is older version of LSTM and this is possible with RNN - Automatic music generation, Stock market prediction"
+
+  utter_modular_neural_network:
+  - text: "Yes, we have worked with Modular Neural Network (MNN). And this is possible with Modular Neural Network (MNN), Signature verification"
+
+  utter_generative_adversarial_network:
+  - text: "Yes, we have worked with Generative Adversarial Network (GAN). And this is possible with GANs, Deep Fake - The idea is to synthesize fake images using techniques based on Artificial Intelligence."
+
+  utter_reinforcement_learning:
+  - text: "Yes, we have worked with Reinforcement Learning (RL). And this is possible with Reinforcement Learning (RL), Go - Mastering the game of Go with deep neural networks using Reinforcement Learning."
+
+  utter_tableau:
+  - text: "Yes, we have worked with Tableau. We have worked on, Moogle Digital Analysis Marketing - SM optimization of Moogle Data for efficent marketing."
+
+  utter_power_bi:
+  - text: "Yes, we have worked with Power BI. We have worked on, Moogle Digital Analysis Marketing - SM optimization of Moogle Data for efficent marketing."
+
+  utter_sas:
+  - text: "Yes, we have worked with SAS. And this is the project we have already worked on SAS, Preprocessed data of breast cancer on SAS and deployed same on SAS."
+
+  utter_snowflake:
+  - text: "Yes, we have worked with snowflake. And this is the project we have already worked on Snowflake, Automated data preperation on snoflake and deploy models."
+
+  utter_ibm_cognos:
+  - text: "Yes, we have worked with IBM Cognos."
+
+  utter_matlab:
+  - text: "Yes, we have worked with Matlab. And this is possible with Matlab, Automatic machine learning (AutoML) including feature selection, model selection and hyperparameter tuning."
+
+  utter_sas_business_intelligence:
+  - text: "Yes, we have worked with SAS Business Intelligence. And this is possible with SAS Business Intelligence, Social media analysis - We can find which post gets more views and then post accordingly."
+
+  utter_etl:
+  - text: "Yes, we have worked with ETL. And this is possible with ETL, Extract, transform and load wink music song's data to use later."
+
+  utter_pyspark:
+  - text: "Yes, we have worked with PySpark. And this is possible with PySpark, Data preprocessing for face detection - We used pyspark sor automated processing of the data."
+
+  utter_tensorflow:
+  - text: "Yes, we have worked with TensorFlow. And this is the project we have already worked on TensorFlow, Image Classification - Differentiate between cats and dogs."
+
+  utter_yolo:
+  - text: "Yes, we have worked with YOLO. And this is the project we have already worked on YOLO, Boarding Passes - Custom object detection to find 4 objects on boarding pass."
+
+  utter_mlflow:
+  - text: "Yes, we have worked with MLflow. And this is the project we have already worked on MLflow, Drug suggestion - Suggest drug according to your needs."
+
+  utter_microsoft_congnitive_services:
+  - text: "Yes, we have worked with Microsoft Congnitive Services. And this is possible with Microsoft Congnitive Services, Custom model to differentiate between road sign signals. "
+
+  utter_gpt:
+  - text: "Yes, we have worked with GPT. And this is possible with GPT, Text generation - We can generate text using GPT-3."
+
+  utter_aws_sagemaker:
+  - text: "Yes, we have worked with AWS SageMaker. And this is the project we have already worked on SageMaker, Real time training for face recognition on Sagemaker"
+
+  utter_azure:
+  - text: "Yes, we have worked with Azure. And this is the project we have already worked on Azure, Automated pretrain and hypertune model im azure machine learning studio"
+
+  utter_aws_cloud:
+  - text: "Yes, we have worked with AWS. And this is the project we have already worked on AWS, Deployement of face recognition on AWS"
+
+  utter_lasso_regression:
+  - text: "This can be possible with Lasso Regression -> Abalone Case Study - The objective of this project is to predicting the age of abalone from physical measurements."
+
+  utter_predictive_model:
+  - text: "This can be possible with Predictive Model -> Predict that a person will gain weight based on their diet, any symptoms, etc."
+
+  utter_face_recognition:
+  - text: "This can be possible with Face and signature recognition -> Can be used as an attendance system, or sign recognition in banks"
+
+  utter_worked_on:
+  - text: "We have worked on various Projects. Worked through different use cases and models  few of them on end to end implementations and in some just working on the modules of the project in a team. Projects were based on a few different domains from E-com Recommendations, Medical, Finance, Entertainment."
+
+  utter_familiar_models:
+  - text: "Worked on almost all the ML Models on different Classification, Regression and Clustering Problems. Time Series models like ARIMA, SARIMA, RNN and LSTM and (Some experience Q-Learning in well)."
+
+  utter_familiar_framework:
+  - text: "We are expert in TensorFlow, Keras, PyTorch and Fast API. Some Experience with Amazon SageMaker as well."
+
+  utter_data_augmentation:
+  - text: "Yes, Mostly all the image based problems needs data argumentation if the data is either not as per necessary size or the models are not able to perform well mainly when overfitting the data."
+
+  utter_spark_jobs:
+  - text: "Yes,we have experience in Spark jobs for images."
+
+  utter_blockchain:
+  - text: "Yes, we have dedicated team with 5 years experience in Blockchain."
+
+  utter_type_db:
+  - text: "We have not exactly worked on TypeDB, but we understand the system and looking forward to any challenge in the future."
+
+  utter_build_dataset:
+  - text: "We can use GANs, transformer based models to generate more data."
+
+  utter_contact_someone:
+  - text: "You can leave your mail here and someone will contact you in next one hour."
+
+  utter_computer_vision:
+  - text: "Yes we have experience in Computer vision, and the project based on computer vision we have already worked on is - Boarding passes -> on the boarding pass we can extract the information of person name."
+
+  utter_open_cv:
+  - text: "yes we have experience in Open Cv, and the project we have worked on is - Finding the color of any spot -> You can click on any image and you can find the name of color of that place"
+
+  utter_recommender_system:
+  - text: "Yes, we have worked with Recommender System and here is the Github link of our Movie Recommender system -  https://github.com/AIML-Cloud and the app- https://navkaur18-firstrepo-app-sv6vkg.streamlitapp.com/"
+
+  utter_chatbot:
+  - text: "Yes we have created chatbot the current chatbot that you are talking with is also created by us."
+
+  utter_audio_video:
+  - text: "Yes we have experience in Audio and video"
+
+  utter_trading_bot:
+  - text: "Yes we have experience in trading and we have a dedicated team which has 5 years of experience in trading"
+
+  utter_human_expert:
+  - text: "Leave your name and mail and someone will get in contact with you shortly."
+
+  utter_what_is_your_name:
+  - text: "My name is Moogle, tell me how may i help you?"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+# actions:
+#   - action_services
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
